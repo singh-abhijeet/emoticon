@@ -1,58 +1,14 @@
-# emoticon [![Build Status][travis-badge]][travis]
+# emoticons with Polarity
 
-Info on ASCII emoticons.  :p
-
-## Installation
-
-[npm][]:
-
-```bash
-npm install emoticon
-```
-
-## Usage
-
-```javascript
-var emoticon = require('emoticon')
-
-console.log(emoticon.slice(0, 3))
-```
-
-Yields:
-
-```js
-[ { name: 'angry',
-    emoji: '😠',
-    tags: [ 'mad', 'annoyed' ],
-    description: 'angry face',
-    emoticons: [ '>:(', '>:[', '>:-(', '>:-[', '>=(', '>=[', '>=-(', '>=-[' ] },
-  { name: 'blush',
-    emoji: '😊',
-    tags: [ 'proud' ],
-    description: 'smiling face with smiling eyes',
-    emoticons:
-     [ ':")',
-       ':"]',
-       ':"D',
-       ':-")',
-       ':-"]',
-       ':-"D',
-       '=")',
-       '="]',
-       '="D',
-       '=-")',
-       '=-"]',
-       '=-"D' ] },
-  { name: 'broken_heart',
-    emoji: '💔',
-    tags: [],
-    description: 'broken heart',
-    emoticons: [ '<\\3', '</3' ] } ]
-```
+Added Sentiment Scores on [support] page. Can be used as seed training  dataset for Emojis, Emoticons.
 
 ## Support
 
-See [support.md][support].
+See [support.md][support]
+
+## Based on
+[Emoji Polarity][emoji-emotion]
+[Emoji-Emoticons mapping][emoticon]
 
 ## License
 
@@ -71,3 +27,5 @@ See [support.md][support].
 [author]: http://wooorm.com
 
 [support]: support.md
+[emoji-emotion]: https://raw.githubusercontent.com/words/emoji-emotion/master/readme.md
+[emoticon]: https://github.com/wooorm/emoticon/blob/master/support.md
